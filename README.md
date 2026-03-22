@@ -38,9 +38,10 @@ Checklist for iOS developer before submitting app to AppStore.
     
     
 ## iOS SDK API updates:
+  * check that app can connect to your server, open faq page, load image (ATS, iOS9 SDK)
   * check that geolocation is working ([iOS8 SDK](http://stackoverflow.com/a/24063578))
-  * check that local notifications are wokring (iOS8 SDK)
-  * push notifications should work too =)	
+  * check that local notifications are working, because user needs permit them too (iOS8 SDK)
+  * push notifications should work too	
   
   
 ## Server
@@ -88,7 +89,9 @@ Checklist for iOS developer before submitting app to AppStore.
   ```
   
   Parse.com application keys
+  
   <img src="pics/parse-keys.png" width="600"/>
+  
   Keys should be the same in Settings and AppDelegate.
   
   
